@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Enter the number of books: ";
     cin >> n;
 
     string titles[1000]; //string contains the names of the books
