@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Enter the number of commands you want: ";
     cin >> n;
 
     int temperature = 0;
@@ -12,7 +11,6 @@ int main() {
     for (int i = 0; i < n; i++) 
     {
         string command;
-        cout << "Enter the command: ";
         cin >> command;
 
         if (command == "++T" || command == "T++") 
@@ -25,6 +23,6 @@ int main() {
         }
     }
 
-    cout << "The final temprature: " << temperature << endl;
+    cout << temperature << endl;
     return 0;
 }
